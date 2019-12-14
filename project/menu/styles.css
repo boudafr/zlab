@@ -1,0 +1,33 @@
+.nB {
+  padding: 0;
+  margin: 0;
+}
+
+.aB {
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+.pAB {
+  position: absolute;
+}
+
+body {
+  margin: 0;
+}
+
+.w10em {
+  width: 10em;
+}
+
+.h10em {
+  height: 10em;
+}
+
+.fL {
+  float: left;
+}
+
+.taC {
+  text-align: center;
+}

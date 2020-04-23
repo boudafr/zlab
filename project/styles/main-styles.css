@@ -1,0 +1,129 @@
+:root {
+  --sm-w: 8em;
+  --bg-color: #4d4d4d;
+  --txt-color: white;
+  --border-type: solid;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-color);
+  background-image: url(https://www.fonewalls.com/wp-content/uploads/2019/11/Space-Wallpaper-for-Phone-055.jpg);
+  background-size: 100%;
+}
+
+.side-menu {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: var(--sm-w);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.side-menu :nth-child(n+2) {
+  border-right: var(--border-type);
+}
+
+.side-menu :nth-child(2) {
+  border-top: var(--border-type);
+}
+
+.side-menu :last-child {
+  border-bottom: var(--border-type);
+}
+
+.sm-w {
+  width: var(--sm-w);
+}
+
+.sm-txt {
+  text-decoration: none;
+  text-align: center;
+  font-size: 2em;
+  color: var(--txt-color);
+  background-color: var(--bg-color);
+  transition: 0.2s;
+}
+
+.sm-txt:hover {
+  color: var(--bg-color);
+  background-color: var(--txt-color);
+  opacity: 70%;
+}
+
+.lable {
+  color: var(--txt-color);
+  font-weight: bold;
+  font-size: 1.25em;
+  position: absolute;
+  top: 0;
+  left: var(--sm-w);
+  right: var(--sm-w);
+  width: auto;
+  height: var(--sm-w);
+}
+
+.lable-txt {
+  font-size: 3em;
+  text-align: center;
+}
+
+.articles {
+  position: absolute;
+  top: var(--sm-w);
+  margin-left: 9em;
+  margin-right: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.article {
+  border: solid;
+  border-color: var(--txt-color);
+  margin-bottom: 1em;
+}
+
+.ar-title {
+  margin: 0;
+  padding: 0.25em;
+  transition: 0.2s;
+
+}
+
+.ar-title:hover {
+  color: var(--bg-color);
+  background-color: var(--txt-color);
+  opacity: 70%;
+}
+
+.ar-title:hover a {
+  color: var(--bg-color);
+}
+
+.ar-txt {
+  padding: 0.5em;
+  margin: 0;
+  height: var(--sm-w);
+  color: var(--txt-color);
+  border-top: var(--border-type) var(--txt-color);
+  font-size: 1.25em;
+}
+
+.no-border {
+  padding: 0;
+  margin: 0;
+}
+
+.ar-img {
+  position: inherit;
+  float: left;
+  padding-right: 0.5em;
+}
+
+.ar-title-link {
+  text-decoration: none;
+  font-size: 2em;
+  color: var(--txt-color);
+}

@@ -94,8 +94,8 @@ button{
     border-radius: 50%;
     position: absolute;
     opacity: 100%;
-    /*animation-name: button_show;
-    animation-duration: 400ms;*/
+    animation-name: button_show;
+    animation-duration: 400ms;
 }
 
 @keyframes button_show{
